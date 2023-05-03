@@ -33,6 +33,7 @@ def encrypt (text, key):
 
     return cipher_text
 #Defining decrytion
+def decrypt(cipher, key):
 #Inspection in key and ciphered text
 #Decrypting the ciphered text
 #message input and key input
