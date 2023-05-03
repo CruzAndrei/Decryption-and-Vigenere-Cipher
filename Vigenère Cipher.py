@@ -43,3 +43,7 @@ if __name__ == "__main__":
 
     cipher = encrypt(text,key)
 #print of message, and key input and, the ciphered text and decrypted text
+print(text)
+print(key)
+print(cipher)
+
