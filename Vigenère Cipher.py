@@ -46,6 +46,7 @@ def decrypt(cipher, key):
     for n in range(cipher_length):
 #Decrypting the ciphered text
         letter = (cipher_alph_char[n] - key_alph_char[n % key_length]) % len(alph_char)
+        plain_text += alph_char[letter]        
 #message input and key input
 if __name__ == "__main__":
 
