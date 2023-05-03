@@ -17,6 +17,7 @@ print(Fore.LIGHTGREEN_EX + name.center(115,"="))
 #Alphabet characters, both uppercase and lowercase
 alph_char = string.ascii_uppercase + string.ascii_lowercase
 #Defining the encryption
+def encrypt (text, key):
 #Inspection in message and key
 #Conjoining message and key input to cipher the text
 #Defining decrytion
