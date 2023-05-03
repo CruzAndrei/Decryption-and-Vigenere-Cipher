@@ -28,6 +28,8 @@ for i in range(len(input_str)):
     elif input_str[i] == "&":
         output_str += "e"
 #Subtitution for # is working
+    elif input_str[i] == "#":
+        output_str += "i"
 #Subtitution for + is working
 #Subtitution for ! is working
 #Print output is working
