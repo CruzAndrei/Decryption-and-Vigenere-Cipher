@@ -25,6 +25,8 @@ for i in range(len(input_str)):
     if input_str[i] == "*":
         output_str += "a"
 #Subtitution for & is working
+    elif input_str[i] == "&":
+        output_str += "e"
 #Subtitution for # is working
 #Subtitution for + is working
 #Subtitution for ! is working
