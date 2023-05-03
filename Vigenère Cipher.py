@@ -11,6 +11,9 @@ print ("\n\t\tHello there and welcome to a program that uses Vigenère Cipher to
 print ("-" * 115)
 enter_cont = input('\n\t\t\t\t\t\t"Enter to Continue"\n')
 print ("-" * 115)
+#Adding title
+name = "Vigenère Cipher"
+print(Fore.LIGHTGREEN_EX + name.center(115,"="))
 #Alphabet characters, both uppercase and lowercase
 #Defining the encryption
 #Inspection in message and key
