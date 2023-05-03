@@ -10,6 +10,8 @@ colorama.init(autoreset=True)
 enter_cont = input('\n\t\t\t\t\t  "Enter to Continue"\n')
 print ("=" * 115)
 #Asking user for inputs to their data
+input_str = input("\nType in your data here: ")
+output_str = ""
 #Table of values
 #Inspection of each character
 #Substition for * is working
