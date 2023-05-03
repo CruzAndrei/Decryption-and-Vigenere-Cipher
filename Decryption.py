@@ -22,6 +22,8 @@ print ("=" * 115)
 #Inspection of each character
 for i in range(len(input_str)):
 #Substition for * is working
+    if input_str[i] == "*":
+        output_str += "a"
 #Subtitution for & is working
 #Subtitution for # is working
 #Subtitution for + is working
