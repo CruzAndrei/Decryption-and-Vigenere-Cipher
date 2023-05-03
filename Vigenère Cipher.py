@@ -34,6 +34,12 @@ def encrypt (text, key):
     return cipher_text
 #Defining decrytion
 def decrypt(cipher, key):
+    cipher_alph_char = [alph_char.find(i) for i in cipher]
+    key_alph_char = [alph_char.find(i) for i in key]
+#Key
+    key_length = len(key)
+#Ciphered text
+    cipher_length = len(cipher)
 #Inspection in key and ciphered text
 #Decrypting the ciphered text
 #message input and key input
