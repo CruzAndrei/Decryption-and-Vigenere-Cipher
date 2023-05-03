@@ -58,7 +58,7 @@ if __name__ == "__main__":
     cipher = encrypt(text,key)
     plaintext = decrypt(cipher,key)    
 #print of message, and key input and, the ciphered text and decrypted text
-print(text)
+print (Fore.GREEN + pyfiglet.figlet_format("Message: " + text, font = 'digital'),'\n')
 print(key)
 print(cipher)
 print(plaintext)
