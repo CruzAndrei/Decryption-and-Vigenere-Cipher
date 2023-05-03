@@ -29,11 +29,17 @@ def encrypt (text, key):
     for n in range (text_length) :
         letter = (text_alph_char[n] + key_alp_char[n % key_length]) % len(alph_char)
         cipher_text += alph_char[letter]
-        
+
     return cipher_text
 #Conjoining message and key input to cipher the text
 #Defining decrytion
 #Inspection in key and ciphered text
 #Decrypting the ciphered text
 #message input and key input
+if __name__ == "__main__":
+
+    text = input ("Message: ")
+    key = input ("Key: ")
+
+    cipher = encrypt(text,key)
 #print of message, and key input and, the ciphered text and decrypted text
