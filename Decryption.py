@@ -13,6 +13,12 @@ print ("=" * 115)
 input_str = input("\nType in your data here: ")
 output_str = ""
 #Table of values
+print(Fore.BLUE + "Symbol *".ljust(105,"-") + "Vowel a")
+print(Fore.MAGENTA + "Symbol &".ljust(105,"-") + "Vowel e")
+print(Fore.BLUE + "Symbol #".ljust(105,"-") + "Vowel i")
+print(Fore.MAGENTA + "Symbol +".ljust(105,"-") + "Vowel o")
+print(Fore.BLUE + "Symbol !".ljust(105,"-") + "Vowel u")
+print ("=" * 115)
 #Inspection of each character
 #Substition for * is working
 #Subtitution for & is working
