@@ -28,10 +28,10 @@ def encrypt (text, key):
 #Inspection in message and key
     for n in range (text_length) :
         letter = (text_alph_char[n] + key_alp_char[n % key_length]) % len(alph_char)
+#Conjoining message and key input to cipher the text
         cipher_text += alph_char[letter]
 
     return cipher_text
-#Conjoining message and key input to cipher the text
 #Defining decrytion
 #Inspection in key and ciphered text
 #Decrypting the ciphered text
