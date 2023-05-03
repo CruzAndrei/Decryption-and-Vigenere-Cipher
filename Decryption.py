@@ -20,6 +20,7 @@ print(Fore.MAGENTA + "Symbol +".ljust(105,"-") + "Vowel o")
 print(Fore.BLUE + "Symbol !".ljust(105,"-") + "Vowel u")
 print ("=" * 115)
 #Inspection of each character
+for i in range(len(input_str)):
 #Substition for * is working
 #Subtitution for & is working
 #Subtitution for # is working
