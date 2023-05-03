@@ -1,4 +1,10 @@
 #Import of modules
+import string
+import time
+import pyfiglet
+import colorama
+from colorama import Fore
+colorama.init(autoreset=True)
 #Welcoming the user
 #Alphabet characters, both uppercase and lowercase
 #Defining the encryption
