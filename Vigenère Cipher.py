@@ -40,6 +40,8 @@ def decrypt(cipher, key):
     key_length = len(key)
 #Ciphered text
     cipher_length = len(cipher)
+#Decrypted text or original text
+    plain_text = ""
 #Inspection in key and ciphered text
 #Decrypting the ciphered text
 #message input and key input
