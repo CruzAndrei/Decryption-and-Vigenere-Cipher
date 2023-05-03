@@ -24,6 +24,7 @@ def encrypt (text, key):
     key_length = len(key)
 #message
     text_length = len(text)
+    cipher_text = ""
 #Inspection in message and key
 #Conjoining message and key input to cipher the text
 #Defining decrytion
