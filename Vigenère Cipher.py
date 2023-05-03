@@ -43,6 +43,7 @@ def decrypt(cipher, key):
 #Decrypted text or original text
     plain_text = ""
 #Inspection in key and ciphered text
+    for n in range(cipher_length):
 #Decrypting the ciphered text
 #message input and key input
 if __name__ == "__main__":
