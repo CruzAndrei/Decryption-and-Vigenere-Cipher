@@ -56,6 +56,7 @@ if __name__ == "__main__":
     key = input ("Key: ")
 
     cipher = encrypt(text,key)
+    plaintext = decrypt(cipher,key)    
 #print of message, and key input and, the ciphered text and decrypted text
 print(text)
 print(key)
