@@ -63,5 +63,6 @@ time.sleep(3)
 print (Fore.WHITE + pyfiglet.figlet_format("Key: " + key, font = 'digital'),'\n')
 time.sleep(3)
 print (Fore.BLUE + pyfiglet.figlet_format("Ciphertext: " + cipher, font = 'digital'),'\n')
+time.sleep(3)
 print (Fore.MAGENTA + pyfiglet.figlet_format("Message: " + plaintext, font = 'digital'),'\n')
 
