@@ -27,3 +27,4 @@ for i in range(len(input_str)):
 #Subtitution for + is working
 #Subtitution for ! is working
 #Print output is working
+print(pyfiglet.figlet_format(output_str, font = "bubble" ))
