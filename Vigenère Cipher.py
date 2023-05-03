@@ -61,4 +61,5 @@ if __name__ == "__main__":
 print(text)
 print(key)
 print(cipher)
+print(plaintext)
 
